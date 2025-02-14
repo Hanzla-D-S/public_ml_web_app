@@ -1,71 +1,27 @@
-Multiple Disease Prediction System
+# 🏥 Multiple Disease Prediction System
 
-This is a web-based application developed using Streamlit that allows users to predict the likelihood of having Diabetes, Heart Disease, or Parkinson's Disease using trained machine learning models.
+A **Machine Learning-powered** web application built with **Streamlit** that predicts the likelihood of **Diabetes, Heart Disease, and Parkinson's Disease** based on user input.  
 
-Features
+🚀 **Deployed using Streamlit** | 💾 **Trained with ML Models** | 📊 **User-friendly Interface**
 
-Diabetes Prediction
+---
 
-Heart Disease Prediction
+## 📌 Features
 
-Parkinson's Disease Prediction
+✅ **Diabetes Prediction**  
+✅ **Heart Disease Prediction**  
+✅ **Parkinson's Disease Prediction**  
+✅ **Interactive UI with Streamlit**  
+✅ **Lightweight & Fast Predictions**  
 
-User-friendly interface with Streamlit
+---
 
-Model-based predictions using saved ML models
+## 🛠️ Tech Stack
 
-Installation
+- **Python** 🐍
+- **Streamlit** 🎈
+- **Machine Learning (Sklearn, Pandas, Numpy)** 🤖
+- **Pickle (Model Serialization)** 🔗
 
-Prerequisites
+---
 
-Ensure you have Python installed on your system. Install the required dependencies using:
-
-pip install streamlit pickle5 streamlit-option-menu
-
-Running the App
-
-To start the Streamlit application, navigate to the project directory and run:
-
-streamlit run app.py
-
-Project Structure
-
-Multiple-Disease-Prediction/
-│── SavFiles/
-│   ├── diabetes_model.sav
-│   ├── heart_disease_model.sav
-│   ├── parkinsons_model.sav
-│── app.py
-│── README.md
-
-Usage
-
-Select a Disease: Use the sidebar menu to choose between Diabetes, Heart Disease, or Parkinson's Disease Prediction.
-
-Enter the Required Inputs: Provide the necessary medical data in the input fields.
-
-Get Prediction: Click the prediction button to get the results.
-
-Model Details
-
-The models are pre-trained and saved using pickle.
-
-They take numeric inputs and return a classification result.
-
-Requirements
-
-Python 3.x
-
-Streamlit
-
-Pickle
-
-streamlit-option-menu
-
-Notes
-
-Ensure that the .sav model files are available in the SavFiles folder.
-
-All input values should be numeric to avoid errors.
-
-The models used are trained externally and not part of this repository.
